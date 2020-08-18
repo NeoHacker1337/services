@@ -67,13 +67,13 @@ input[type=submit]:hover {
 
 
 <div class="container">
-<div class="row col-md-6">
+<div class="row col-md-8">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
+    <label for="fname">Your Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="example@domain.com">
 
 
     <label for="subject">Subject</label>
@@ -82,7 +82,7 @@ input[type=submit]:hover {
     <input type="submit" value="Submit">
   </form>
 </div>
-<div class="col-md-4">
+<div class="col-md-2">
 <div class="row">
 <h4>hello</h4>
 </div>

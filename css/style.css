@@ -44210,7 +44210,7 @@ img.mfp-img {
 	.rd-navbar-static.rd-navbar-corporate .rd-navbar-middle-panel, .rd-navbar-static.rd-navbar-center .rd-navbar-middle-panel{padding:30px 40px;max-width:1250px;margin:auto;}
 	.rd-navbar-static.rd-navbar-dark, .rd-navbar-fullwidth.rd-navbar-dark, .rd-navbar-sidebar.rd-navbar-dark,.rd-navbar-static.rd-navbar-dark::before, .rd-navbar-static.rd-navbar-dark::after, .rd-navbar-fullwidth.rd-navbar-dark::before, .rd-navbar-fullwidth.rd-navbar-dark::after, .rd-navbar-sidebar.rd-navbar-dark::before, .rd-navbar-sidebar.rd-navbar-dark::after{background:none;}
 	.rd-navbar-outer-panel.toggle-original-elements {
-    background: #217ed3 none repeat scroll 0 0;
+    background: #000 none repeat scroll 0 0;
     padding: 0 40px;
 }
 .rd-navbar-static.rd-navbar-corporate .rd-navbar-nav-wrap, .rd-navbar-static.rd-navbar-center .rd-navbar-nav-wrap {

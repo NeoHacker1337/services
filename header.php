@@ -9,6 +9,7 @@
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/css.css?family=Open+Sans:400,700,400italic,600italic,900">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main.css">
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -32,15 +33,17 @@
           <div class="rd-navbar-middle-panel">
             <div class="rd-navbar-panel">
               <button data-rd-navbar-toggle=".rd-navbar-outer-panel" class="rd-navbar-toggle"><span></span></button>
-              <a href="index.php" class="rd-navbar-brand">
-              <div class="rd-navbar-fixed--hidden"><img src="images/logo-light-250x40.png" alt="" width="250" height="40"/> </div>
+
+         <div class="rd-navbar-fixed--hidden"><img src="images/logo-light-250x40.png" alt="" width="250" height="40"/> </div>
               <div class="rd-navbar-fixed--visible"><img src="images/logo-light-250x40.png" alt="" width="250" height="40"/> </div>
-              </a> </div>
+              
+              </div>
+
             <div class="rd-navbar-aside">
               <div data-rd-navbar-toggle=".rd-navbar-aside" class="rd-navbar-aside-toggle"><span></span></div>
               <div class="rd-navbar-aside-content">
                 <ul class="block-wrap-list">
-                  <li class="block-wrap">
+                   <li class="block-wrap">
                     <div class="unit unit-sm-horizontal unit-align-center unit-middle unit-spacing-xxs">
                       <div class="unit-left"><span class="icon icon-circle-sm icon-sm-variant-1 icon-venice-blue-filled icon-white mdi mdi-map-marker"></span></div>
                       <div class="unit-body">
@@ -71,6 +74,7 @@
                       </div>
                     </div>
                   </li>
+ 
                 </ul>
               </div>
             </div>
@@ -79,7 +83,7 @@
             <div class="rd-navbar-nav-wrap">
               <ul class="rd-navbar-nav">
                 <li class="active"><a href="index.php">Home</a> </li>
-            <!--   <li><a href="#">Pages</a>
+           <!--  <li><a href="#">Pages</a>
                   <ul class="rd-navbar-megamenu">
                     <li>
                       <h6>Pages 1</h6>
@@ -132,16 +136,15 @@
                       </ul>
                     </li>
                   </ul>
-                </li> -->
+                </li>  -->
 
                <li><a href="about-us.php">About Us</a></li>
-               <li><a href="terms-and-conditions.php">terms & Conditions</a></li>
+               <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
                <li><a href="privacy-policy.php">Privacy Policy</a></li>
                 <li><a href="contacts.php">Contacts</a></li>
               </ul>
 
-
-              <div class="rd-navbar-search">
+                  <div class="rd-navbar-search">
                 <form action="search-results.php" method="GET" data-search-live="rd-search-results-live" class="rd-search">
                   <div class="form-group">
                     <label for="rd-search-form-input" class="form-label">Search...</label>
@@ -152,6 +155,7 @@
                 </form>
                 <button data-rd-navbar-toggle=".rd-navbar-search" class="rd-navbar-search-toggle"></button>
               </div>
+               
             </div>
           </div>
         </div>
